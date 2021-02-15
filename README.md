@@ -1,5 +1,9 @@
 # Bapple
 shamelessly stolen via ffmpeg and pywhatkit
-i cant even upload the mp4 file so you will have to download the mp4 as 60fps and convert it to idividual frames with ffmpeg
-then just convert2text and make it into txt files
-then it hopefullt will work 
+
+unable to upload to the mp4 directly so you'll have to somehow download a 60fps bad apple video
+run it through ffmpeg and convert it into individual frames @ 60fps
+convert it individual ascii files (not the most efficient, I know)
+run the bash file
+
+example: https://youtu.be/qywl_ewJSkM
