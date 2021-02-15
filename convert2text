@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Feb 15 17:07:14 2021
+
+@author: weeb
+"""
+
+import pywhatkit as kt
+
+for i in range(13169):
+
+    source = f'/home/weeb/programming/bapple/bapple-frames/image{i+1}.png'
+    target = f'/home/weeb/programming/bapple/bapple-frames-text/image{i+1}.txt'
+    
+    kt.image_to_ascii_art(source, target)
+
+print('done lol')
