@@ -1,7 +1,8 @@
 # Bapple
-shamelessly stolen via ffmpeg and pywhatkit
+built with ffmpeg and pywhatkit
 
-unable to upload to the mp4 directly so you'll have to somehow download a 60fps bad apple video 
+# Build
+get 60fps video
 
 run it through ffmpeg and convert it into individual frames @ 60fps 
 
