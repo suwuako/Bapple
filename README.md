@@ -1,13 +1,21 @@
 # Bapple
-built with ffmpeg and pywhatkit
+Bad Apple animation built @ 60fps in bash
 
-# Build
-get 60fps video
+## Dependancies 
+- `ffmpeg` for splitting the video to individual frames
+- `pywhatkit` for converting frames into ascii files
 
-run it through ffmpeg and convert it into individual frames @ 60fps 
+## Demonstration
+https://youtu.be/qywl_ewJSkM
 
-convert it individual ascii files (not the most efficient, I know)
+## Build
+1) download video @60fps
+2) run it through ffmpeg and convert it into individual frames @ 60fps 
+3) convert it into individual ascii files 
+4) edit the directory and run the bash file 
 
-run the bash file 
+## License
+GPL-3.0 License
 
-example: https://youtu.be/qywl_ewJSkM
+## Contributors
+megumin00
